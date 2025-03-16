@@ -1,0 +1,64 @@
+.navbar {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: #161D2F; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px 20px; 
+    z-index: 1000; 
+  }
+  
+  .navbar-logo-image {
+    height: 40px; 
+  }
+  
+  .navbar-links {
+    display: flex; 
+    gap: 40px;
+  }
+  
+  .navbar-icon {
+    width: 30px; 
+    cursor: pointer; 
+  }
+  
+  .navbar-profile-image {
+    width: 40px; 
+    border-radius: 50%; 
+  }
+  
+  body {
+    padding-top: 60px; 
+  }
+
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 10px 15px;
+    }
+  
+    .navbar-logo-image {
+      height: 35px; 
+    }
+  
+    .navbar-links {
+      gap: 15px; 
+      flex-wrap: wrap; 
+      justify-content: center;
+    }
+  
+    .navbar-icon {
+      width: 25px; 
+      height: 25px; 
+    }
+  
+    .navbar-profile-image {
+      width: 35px; 
+      height: 35px; 
+    }
+    body {
+      padding-top: 70px; 
+    }
+  }
